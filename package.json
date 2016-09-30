@@ -1,0 +1,27 @@
+{
+  "name": "is-port-busy",
+  "version": "1.0.0",
+  "description": "A Node.js module to check if a TCP port is busy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/john-doherty/is-port-busy.git"
+  },
+  "keywords": [
+    "express",
+    "port",
+    "tcp",
+    "networking",
+    "inuse",
+    "busy"
+  ],
+  "author": "John Doherty <contact@johndoherty.info> (www.johndoherty.info)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-doherty/is-port-busy/issues"
+  },
+  "homepage": "https://github.com/john-doherty/is-port-busy#readme"
+}
