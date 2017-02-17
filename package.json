@@ -1,6 +1,6 @@
 {
   "name": "is-port-busy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple node module to check if a TCP port is busy on the local machine.",
   "main": "index.js",
   "scripts": {
