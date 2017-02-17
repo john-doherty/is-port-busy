@@ -1,10 +1,10 @@
 {
   "name": "is-port-busy",
-  "version": "1.0.0",
-  "description": "A Node.js module to check if a TCP port is busy.",
+  "version": "1.0.1",
+  "description": "A node module to check if a TCP port is busy on the local machine.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jasmine-node --verbose --junitreport test"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/john-doherty/is-port-busy/issues"
   },
-  "homepage": "https://github.com/john-doherty/is-port-busy#readme"
+  "homepage": "https://github.com/john-doherty/is-port-busy#readme",
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "jasmine-node": "^1.14.5"
+  }
 }
