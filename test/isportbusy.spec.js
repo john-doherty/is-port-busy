@@ -13,13 +13,17 @@ describe('isPortBusy', function () {
     });
 
     it('should be defined', function () {
-
         expect(isPortBusy).toBeDefined();
     });
 
     it('should execute .then when port is busy', function (done) {
-
         isPortBusy(port).then(done);
+    });
+
+    it('should execute .catch when port is free', function (done) {
+        isPortBusy(8081).catch(function(){
+            done();
+        });
     });
 
     afterEach(function (done) {
